@@ -138,6 +138,9 @@ namespace CoreTweet
             req.UserAgent = options.UserAgent;
             req.Proxy = options.Proxy;
             req.Headers.Add(HttpRequestHeader.Authorization, authorizationHeader);
+
+            // Add special header needed for XYZ
+
             if(options.BeforeRequestAction != null) options.BeforeRequestAction(req);
             return (HttpWebResponse)req.GetResponse();
         }
