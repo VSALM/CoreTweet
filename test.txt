@@ -1,2 +1,30 @@
-Mon 05/05/2014 
-Mon 05/05/2014 
+ Volume in drive C is OSDisk
+ Volume Serial Number is CCB0-365A
+
+ Directory of C:\work\teched\CoreTweet
+
+05/08/2014  07:26 AM    <DIR>          .
+05/08/2014  07:26 AM    <DIR>          ..
+05/08/2014  07:26 AM             1,697 .gitignore
+05/08/2014  07:26 AM               256 .gitmodules
+05/08/2014  07:26 AM             3,572 build.ps1
+05/08/2014  07:26 AM    <DIR>          CoreTweet
+05/08/2014  07:26 AM    <DIR>          CoreTweet.net35
+05/08/2014  07:26 AM    <DIR>          CoreTweet.net45
+05/08/2014  07:26 AM    <DIR>          CoreTweet.Pcl
+05/08/2014  07:26 AM             5,778 CoreTweet.Pcl.sln
+05/08/2014  07:26 AM             4,695 CoreTweet.sln
+05/08/2014  07:26 AM    <DIR>          CoreTweet.Streaming.Reactive
+05/08/2014  07:26 AM    <DIR>          CoreTweet.Streaming.Reactive.net45
+05/08/2014  07:26 AM    <DIR>          CoreTweet.Streaming.Reactive.Pcl
+05/08/2014  07:26 AM           103,120 Doxyfile
+05/08/2014  07:26 AM    <DIR>          ExternalDependencies
+05/08/2014  07:26 AM    <DIR>          icon
+05/08/2014  07:26 AM             1,163 LICENSE
+05/08/2014  07:26 AM             1,486 Makefile
+05/08/2014  07:26 AM    <DIR>          nuspecs
+05/08/2014  07:26 AM             2,798 README.md
+05/08/2014  07:26 AM    <DIR>          scripts
+05/08/2014  07:29 AM                 0 test.txt
+              10 File(s)        124,565 bytes
+              13 Dir(s)  858,952,892,416 bytes free
