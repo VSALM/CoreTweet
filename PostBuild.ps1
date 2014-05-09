@@ -1,1 +1,1 @@
-echo "$(SolutionDir)" 
+echo "hi" 
