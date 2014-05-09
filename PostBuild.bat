@@ -1,3 +1,3 @@
 echo "xcopy"
-xcopy ".\..\bin\CoreTweet.dll" ".\CoreTweet\bin\Debug\" /S /Y
+xcopy "$(SolutionDir)\..\bin\CoreTweet.dll" "$(SolutionDir)\CoreTweet\bin\Debug\" /S /Y
 
