@@ -136,6 +136,6 @@
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
   <ItemGroup />
   <PropertyGroup>
-    <PostBuildEvent>.\PostBuild.ps1</PostBuildEvent>
+    <PostBuildEvent>"$(SolutionDir)\PostBuild.bat"</PostBuildEvent>
   </PropertyGroup>
 </Project>
