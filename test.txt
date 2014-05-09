@@ -31,4 +31,4 @@
 05/09/2014  12:42 PM                 0 test.txt
 05/09/2014  10:51 AM    <DIR>          tools
               10 File(s)        124,119 bytes
-              17 Dir(s)  857,936,793,600 bytes free
+              17 Dir(s)  857,936,306,176 bytes free
