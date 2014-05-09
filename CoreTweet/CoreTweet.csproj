@@ -136,6 +136,6 @@
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
   <ItemGroup />
   <PropertyGroup>
-    <PostBuildEvent>"$(SolutionDir)\tools\NuGet.exe" pack "$(ProjectDir)CoreTweet.csproj" -BasePath "$(TargetDir)." -verbosity detailed -OutputDirectory "$(TargetDir)."</PostBuildEvent>
+    <PostBuildEvent>"$(SolutionDir)\scripts\PostBuild.ps1"</PostBuildEvent>
   </PropertyGroup>
 </Project>
