@@ -165,7 +165,7 @@ namespace CoreTweet
             req.Timeout = options.Timeout;
             req.ReadWriteTimeout = options.ReadWriteTimeout;
             req.UserAgent = options.UserAgent;
-            req.Proxy = options.Proxy;
+            //req.Proxy = options.Proxy;
             req.ContentType = "application/x-www-form-urlencoded";
             req.ContentLength = data.Length;
             req.Headers.Add(HttpRequestHeader.Authorization, authorizationHeader);
