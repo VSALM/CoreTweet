@@ -136,6 +136,6 @@
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
   <ItemGroup />
   <PropertyGroup>
-    <PostBuildEvent>"$(SolutionDir)\tools\NuGet.exe" pack "$(ProjectDir)CoreTweet.csproj" -Prop Configuration=Release -verbosity detailed -OutputDirectory "$(TargetDir)."</PostBuildEvent>
+    <PostBuildEvent>"$(SolutionDir)\tools\NuGet.exe" pack "$(ProjectDir)CoreTweet.nuspec" -verbosity detailed -OutputDirectory "$(TargetDir)."</PostBuildEvent>
   </PropertyGroup>
 </Project>
