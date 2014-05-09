@@ -1,1 +1,0 @@
-"$(SolutionDir)\tools\NuGet.exe" pack "$(ProjectDir)CoreTweet.csproj" -BasePath "$(TargetDir)." -verbosity detailed -OutputDirectory "$(TargetDir)."
