@@ -18,7 +18,7 @@ using System.Runtime.CompilerServices;
 // and "{Major}.{Minor}.{Build}.*" will update just the revision.
 
 [assembly: AssemblyVersion("0.3.1.*")]
-[assembly: AssemblyInformationalVersion("0.3.1")]
+[assembly: AssemblyInformationalVersion("0.3.1.*")]
 
 
 [assembly: InternalsVisibleTo("CoreTweet.Streaming.Reactive")]
