@@ -42,6 +42,7 @@ namespace CoreTweet
     public enum MethodType
     {
         Get
+
     }
 
     /// <summary>
