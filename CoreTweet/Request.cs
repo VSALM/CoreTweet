@@ -42,7 +42,8 @@ namespace CoreTweet
     public enum MethodType
     {
         Get,
-        Post
+        Post,
+        Put
     }
 
     /// <summary>
