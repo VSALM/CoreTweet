@@ -49,8 +49,7 @@ namespace CoreTweet
         /// POST method.
         /// </summary>
         Post,
-        Patch,
-        Delete
+        Patch       
     }
 
     /// <summary>
