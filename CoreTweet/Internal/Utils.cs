@@ -20,6 +20,7 @@
 // LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 // OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
 // THE SOFTWARE.
+
 using System;
 using System.Collections.Generic;
 using System.IO;
@@ -34,8 +35,13 @@ using System.Threading;
 using System.Threading.Tasks;
 #endif
 
+#if !NET20
+
+#endif
+
 namespace CoreTweet.Core
 {
+
     internal static class InternalUtils
     {
         /// <summary>
@@ -43,6 +49,7 @@ namespace CoreTweet.Core
         /// </summary>
         internal static IEnumerable<KeyValuePair<string, object>> ResolveObject<T>(T t, BindingFlags flags = BindingFlags.Instance | BindingFlags.Public)
         {
+              
             if(t == null)
                 return new Dictionary<string, object>();
             var type = typeof(T);
