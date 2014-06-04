@@ -48,6 +48,7 @@ namespace CoreTweet
 
     /// <summary>
     /// Sends a request to Twitter and some other web services.
+    /// Added a comment...
     /// </summary>
     internal static partial class Request
     {
