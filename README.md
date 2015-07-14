@@ -1,6 +1,8 @@
 CoreTweet
 =========
 
+![status](https://vsalmopen.visualstudio.com/DefaultCollection/_apis/public/build/definitions/3b3ae425-0079-421f-9101-bcf15d6df041/13/badge)
+
 Yet another .NET Twitter Library...
 
 Simplest authorizing:
